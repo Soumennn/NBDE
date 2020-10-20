@@ -25,12 +25,38 @@
 
   <title>NBDE-A SKILL INDIA INITIATIVE</title>
 
+
+  <style>
+    .navbar {
+      overflow: hidden;
+    }
+
+    .banner-section {
+      overflow: hidden;
+    }
+
+    .services {
+      overflow: hidden;
+    }
+
+    .contact-map-section {
+      overflow: hidden;
+    }
+
+    .footer-section {
+      overflow: hidden;
+    }
+  </style>
+
+
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light top-menu bg align-items-center">
-    <div class="container-fluid">
+
+  <nav class="navbar navbar-expand-lg navbar-light top-menu bg align-items-center"  style="
+  padding: 27px;">
+    <div class="container-fluid ">
       <a class="navbar-brand " href="#">
         <img class="img-cl" src="images/dd.png" alt="">
         <img class="img-cl img2" src="images/NBDE.png" alt="">
@@ -45,13 +71,40 @@
       </button>
 
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse drop" id="navbarSupportedContent">
 
-        <ul class="navbar-nav ml-auto menu1">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Franchise</a></li>
+        <ul class="navbar-nav ml-auto menu1 "  style="position: relative;">
+          <li><a href="http://127.0.0.1:5501/index.html">Home</a></li>
+          <li><a href="http://127.0.0.1:5501/about.html">About</a></li>
+          <li><a href="http://127.0.0.1:5501/courses.html">Courses</a></li>
+          <li>
+            <a href="#">Franchise</a>
+
+            <ul
+              style="
+              
+                  list-style: none;
+                  position: absolute;
+                  top: 85%;
+                  left: 217px;
+                  background-color: rgb(230 65 14);
+                  border-radius: 5px;
+                  width: 200px;
+                  height: 40px;">
+             
+             
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfAKKqDlUJtymUzMd1VkZwMZh6qmMu2YVYf1PhT-sY1tETFhA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" style="color: rgba(255, 255, 255, 0.979);
+                position: relative;
+                left: -5px;
+                top: 2px;
+                font-weight: 400;
+                font-size: 14px;">Apply for Franchise</a></li>
+              
+            </ul>
+
+
+
+          </li>
           <li><a href="#">Academics</a></li>
           <li><a href="#">Events</a></li>
           <li><a href="#">Blog</a></li>
@@ -61,7 +114,10 @@
         <div class="header-login d-flex ">
           <div class="login">
 
-            <a href="#" class="btn btn-primary">Log-in Portal</a>
+            <a href="http://127.0.0.1:5501/login.html#" class="btn btn-primary">Log-in Portal</a>
+
+
+
           </div>
         </div>
 
@@ -73,7 +129,7 @@
 
   <!-- banner section  -->
 
-  <div class="banner-section shadow p-1 mb-4  ">
+  <div class="banner-section shadow  mb-4  ">
 
     <div class="banner-info">
 
@@ -85,8 +141,8 @@
 
     <div class="banner-button">
 
-      <li><a href="#" class="btn btn-primary b1">NMDA</a></li>
-      <li><a href="#" class="btn btn-primary">BEAUTYLENS</a></li>
+      <li><a href="https://www.nmda.in/" class="btn btn-primary b1" target="_blank">NMDA</a></li>
+      <li><a href="https://www.beautylens.in" class="btn btn-primary" target="_blank">BEAUTYLENS</a></li>
 
     </div>
 
@@ -94,41 +150,40 @@
 
 
   <!-- Services Section -->
-  <div class="services clearfix text-center">
-    <div class="fixed">
-      <div class="service-item">
-        <span> <i class="fas fa-certificate"></i></span>
-        <h4>Certification on completion</h4>
-        <p>Get government-recognized certifications upon completion of course which can be added to resumes to
-          showcase the skill acquired.</p>
-      </div>
-      <div class="service-item s2">
-        <span><i class="fas fa-lightbulb"></i></span>
-        <h4>Upgrade your skills</h4>
-        <p>Make yourself skilled and updated as per the latest technology demands which will enable you to get
-          employed in any desired field.</p>
-      </div>
-      <div class="service-item s3">
-        <span><i class="far fa-comment-dots"></i></span>
-        <h4>Support from intellectuals</h4>
-        <p> Rigorous and extensive support alongwith industry exposure from our esteemed intellctuals which will help
-          shape your
-          profesional portfolio </p>
-      </div>
+  <div class="services text-center ">
+
+    <div class="service-item">
+      <span> <i class="fas fa-certificate"></i></span>
+      <h4>Certification on completion</h4>
+      <p>Get government-recognized certifications upon completion of course which can be added to resumes to
+        showcase the skill acquired.</p>
     </div>
+    <div class="service-item ">
+      <span><i class="fas fa-lightbulb"></i></span>
+      <h4>Upgrade your skills</h4>
+      <p>Make yourself skilled and updated as per the latest technology demands which will enable you to get
+        employed in any desired field.</p>
+    </div>
+    <div class="service-item ">
+      <span><i class="far fa-comment-dots"></i></span>
+      <h4>Support from intellectuals</h4>
+      <p> Rigorous and extensive support alongwith industry exposure from our esteemed intellctuals which will help
+        shape your
+        profesional portfolio </p>
+    </div>
+
   </div>
 
   <!-- company address and contact form -->
-
   <div class="contact-map-section mb-4">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row ">
         <div class="col-lg-6">
           <div class="map-part text-center mt-4">
             <h4 class="border"> OUR OFFICE </h4>
-            <map name=""class="m"> <iframe
+            <map name="" class="m"> <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.5638315247966!2d93.06848989999999!3d24.8787423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374faad4ff902421%3A0x40eff17e2196d9f3!2sSarkar%20Digital%20Education!5e0!3m2!1sen!2sin!4v1600941499332!5m2!1sen!2sin"
-                width="580" height="345" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                width="100%" height="345" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0"></iframe></map>
           </div>
 
@@ -144,8 +199,8 @@
 
               <textarea type="textarea" rows="5" cols="15" class="form-control mb-1"
                 placeholder="Write your query/suggestion"></textarea>
-                
-              <input type="submit" class="btn btn-primary mt-1 sb  ">
+
+              <input type="submit" class="btn btn-primary mt-1 sb form-control  ">
             </form>
           </div>
 
@@ -153,10 +208,6 @@
       </div>
     </div>
   </div>
-
-
-
-
 
 
 
@@ -169,9 +220,9 @@
         <div class="col-lg-6 w-50 ">
           <div class="footer-menu">
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="http://127.0.0.1:5501/index.html">Home</a></li>
               <li><a href="#">Franchise</a></li>
-              <li><a href="#">Courses</a></li>
+              <li><a href="http://127.0.0.1:5501/courses.html">Courses</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Job Portal</a></li>
             </ul>
@@ -183,8 +234,8 @@
         <div class="col-lg-6 w-50">
           <div class="footer-contact">
             <h6>Contact us :</h6>
-            <p>Phone : 0000000000</p>
-            <p>Email : xxxxxxx@xyn.com</p>
+            <!-- <p>Phone : 0000000000</p> -->
+            <p>Email: director.nbde@gmail.com</p>
 
           </div>
 
@@ -193,18 +244,13 @@
       </div>
       <div class="row row2">
         <div class="footer-end text-center p-1 ">
-          <p> All rights reserved by NBDE</p>
+          <p> © All rights reserved by NBDE</p>
 
         </div>
       </div>
     </div>
 
   </div>
-
-
-
-
-
 
 
 
